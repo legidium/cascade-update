@@ -6,6 +6,10 @@ class ValuesUpdater extends React.Component {
     fields: ["organizations", "branches", "accountTypes"]
   };
 
+  componentDidMount() {
+    console.log("[ValuesUpdater] cDM");
+  }
+
   componentDidUpdate(prevProps) {
     console.log(`[${Date.now()}][ItemsUpdater]cDU`);
 
