@@ -11,7 +11,7 @@ class ValuesUpdater extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    console.log(`[${Date.now()}][ItemsUpdater]cDU`);
+    console.log(`[${Date.now()}][ItemsUpdater] cDU`);
 
     if (this.shouldUpdateValues(prevProps)) {
       this.updateValues();
